@@ -53,17 +53,17 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center mt-20">
+      <div className="flex flex-col md:flex-row justify-center items-center mt-20 gap-8">
         <div className="md:w-1/2">
           <img
-            className="w-full"
+            className="w-full rounded-2xl"
             src={images.AboutImage}
             alt="Inventory Management"
           />
         </div>
 
-        <div className="md:w-1/2 mt-8 md:mt-0">
-          <h2 className="text-xl font-bold text-gray-800 mb-4">
+        <div className="md:w-1/2 mt-8 md:mt-0 gap-8">
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Master The Art Of Being Fit
           </h2>
           <p className="text-gray-600 text-lg">
